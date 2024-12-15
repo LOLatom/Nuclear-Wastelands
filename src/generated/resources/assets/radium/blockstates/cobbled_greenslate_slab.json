@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "radium:block/cobbled_greenslate_slab"
+    },
+    "type=double": {
+      "model": "radium:block/cobbled_greenslate"
+    },
+    "type=top": {
+      "model": "radium:block/cobbled_greenslate_slab_top"
+    }
+  }
+}

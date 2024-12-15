@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "radium:block/low_irradiated_mud_bricks"
+  }
+}

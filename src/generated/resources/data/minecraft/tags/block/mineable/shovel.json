@@ -1,0 +1,12 @@
+{
+  "values": [
+    "radium:highly_irradiated_dirt",
+    "radium:irradiated_dirt",
+    "radium:mildly_irradiated_dirt",
+    "radium:low_irradiated_dirt",
+    "radium:highly_irradiated_cracked_mud",
+    "radium:irradiated_cracked_mud",
+    "radium:mildly_irradiated_cracked_mud",
+    "radium:low_irradiated_cracked_mud"
+  ]
+}

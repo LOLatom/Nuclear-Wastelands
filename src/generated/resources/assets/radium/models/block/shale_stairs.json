@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "radium:block/shale",
+    "side": "radium:block/shale",
+    "top": "radium:block/shale"
+  }
+}

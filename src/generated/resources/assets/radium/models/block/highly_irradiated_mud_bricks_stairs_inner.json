@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "radium:block/highly_irradiated_mud_bricks",
+    "side": "radium:block/highly_irradiated_mud_bricks",
+    "top": "radium:block/highly_irradiated_mud_bricks"
+  }
+}

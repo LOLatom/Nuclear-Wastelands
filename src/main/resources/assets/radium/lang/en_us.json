@@ -1,0 +1,78 @@
+{
+  "itemGroup.radium": "Radium",
+  "block.radium.highly_irradiated_mud": "Irradiated Mud",
+  "block.radium.irradiated_mud": "Irradiated Mud",
+  "block.radium.mildly_irradiated_mud": "Irradiated Mud",
+  "block.radium.low_irradiated_mud": "Irradiated Mud",
+
+  "block.radium.highly_irradiated_cracked_mud": "Irradiated Cracked Mud",
+  "block.radium.irradiated_cracked_mud": "Irradiated Cracked Mud",
+  "block.radium.mildly_irradiated_cracked_mud": "Irradiated Cracked Mud",
+  "block.radium.low_irradiated_cracked_mud": "Irradiated Cracked Mud",
+
+  "block.radium.highly_irradiated_dirt": "Irradiated Dirt",
+  "block.radium.irradiated_dirt": "Irradiated Dirt",
+  "block.radium.mildly_irradiated_dirt": "Irradiated Dirt",
+  "block.radium.low_irradiated_dirt": "Irradiated Dirt",
+
+  "block.radium.highly_irradiated_mud_bricks": "Irradiated Mud Bricks",
+  "block.radium.highly_irradiated_mud_bricks_stairs": "Irradiated Mud Bricks Stairs",
+  "block.radium.highly_irradiated_mud_bricks_slab": "Irradiated Mud Bricks Slab",
+
+  "block.radium.irradiated_mud_bricks": "Irradiated Mud Bricks",
+  "block.radium.irradiated_mud_bricks_stairs": "Irradiated Mud Bricks Stairs",
+  "block.radium.irradiated_mud_bricks_slab": "Irradiated Mud Bricks Slab",
+
+  "block.radium.mildly_irradiated_mud_bricks": "Irradiated Mud Bricks",
+  "block.radium.mildly_irradiated_mud_bricks_stairs": "Irradiated Mud Bricks Stairs",
+  "block.radium.mildly_irradiated_mud_bricks_slab": "Irradiated Mud Bricks Slab",
+
+  "block.radium.low_irradiated_mud_bricks": "Irradiated Mud Bricks",
+  "block.radium.low_irradiated_mud_bricks_stairs": "Irradiated Mud Bricks Stairs",
+  "block.radium.low_irradiated_mud_bricks_slab": "Irradiated Mud Bricks Slab",
+
+  "block.radium.limestone": "Limestone",
+  "block.radium.cobbled_limestone": "Cobbled Limestone",
+  "block.radium.oxide_limestone": "Oxide Limestone",
+  "block.radium.cobbled_oxide_limestone": "Cobbled Oxide Limestone",
+
+  "block.radium.greenslate": "Greenslate",
+  "block.radium.greenslate_stairs": "Greenslate Stairs",
+  "block.radium.greenslate_slab": "Greenslate Slab",
+
+  "block.radium.cobbled_greenslate": "Cobbled Greenslate",
+  "block.radium.cobbled_greenslate_stairs": "Cobbled Greenslate Stairs",
+  "block.radium.cobbled_greenslate_slab": "Cobbled Greenslate Slab",
+
+  "block.radium.shale": "Shale",
+  "block.radium.shale_stairs": "Shale Stairs",
+  "block.radium.shale_slab": "Shale Slab",
+
+  "block.radium.cobbled_shale": "Cobbled Shale",
+  "block.radium.cobbled_shale_stairs": "Cobbled Shale Stairs",
+  "block.radium.cobbled_shale_slab": "Cobbled Shale Slab",
+
+  "block.radium.slightly_harden_shale": "Slightly Harden Shale",
+  "block.radium.slightly_harden_shale_stairs": "Slightly Harden Shale Stairs",
+  "block.radium.slightly_harden_shale_slab": "Slightly Harden Shale Slab",
+
+  "block.radium.slightly_harden_cobbled_shale": "Slightly Harden Cobbled Shale",
+  "block.radium.slightly_harden_cobbled_shale_stairs": "Slightly Harden Cobbled Shale Stairs",
+  "block.radium.slightly_harden_cobbled_shale_slab": "Slightly Harden Cobbled Shale Slab",
+
+  "block.radium.harden_shale": "Harden Shale",
+  "block.radium.harden_shale_stairs": "Harden Shale Stairs",
+  "block.radium.harden_shale_slab": "Harden Shale Slab",
+
+  "block.radium.harden_cobbled_shale": "Harden Cobbled Shale",
+  "block.radium.harden_cobbled_shale_stairs": "Harden Cobbled Shale Stairs",
+  "block.radium.harden_cobbled_shale_slab": "Harden Cobbled Shale Slab",
+
+  "block.radium.highly_harden_shale": "Highly Harden Shale",
+  "block.radium.highly_harden_shale_stairs": "Highly Harden Shale Stairs",
+  "block.radium.highly_harden_shale_slab": "Highly Harden Shale Slab",
+
+  "block.radium.highly_harden_cobbled_shale": "Highly Harden Cobbled Shale",
+  "block.radium.highly_harden_cobbled_shale_stairs": "Highly Harden Cobbled Shale Stairs",
+  "block.radium.highly_harden_cobbled_shale_slab": "Highly Harden Cobbled Shale Slab"
+}

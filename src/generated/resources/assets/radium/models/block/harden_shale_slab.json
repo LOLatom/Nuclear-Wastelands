@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "radium:block/harden_shale",
+    "side": "radium:block/harden_shale",
+    "top": "radium:block/harden_shale"
+  }
+}

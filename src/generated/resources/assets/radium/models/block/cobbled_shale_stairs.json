@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "radium:block/cobbled_shale",
+    "side": "radium:block/cobbled_shale",
+    "top": "radium:block/cobbled_shale"
+  }
+}

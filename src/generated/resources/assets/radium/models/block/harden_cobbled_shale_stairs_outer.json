@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "radium:block/harden_cobbled_shale",
+    "side": "radium:block/harden_cobbled_shale",
+    "top": "radium:block/harden_cobbled_shale"
+  }
+}

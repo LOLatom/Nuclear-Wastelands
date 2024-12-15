@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "radium:block/low_irradiated_mud_bricks_slab"
+    },
+    "type=double": {
+      "model": "radium:block/low_irradiated_mud_bricks"
+    },
+    "type=top": {
+      "model": "radium:block/low_irradiated_mud_bricks_slab_top"
+    }
+  }
+}

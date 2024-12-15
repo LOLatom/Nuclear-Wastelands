@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "radium:block/shale_slab"
+    },
+    "type=double": {
+      "model": "radium:block/shale"
+    },
+    "type=top": {
+      "model": "radium:block/shale_slab_top"
+    }
+  }
+}

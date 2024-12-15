@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "radium:block/greenslate",
+    "side": "radium:block/greenslate",
+    "top": "radium:block/greenslate"
+  }
+}
