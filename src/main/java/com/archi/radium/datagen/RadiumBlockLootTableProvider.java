@@ -22,6 +22,9 @@ public class RadiumBlockLootTableProvider extends BlockLootSubProvider {
         RadiumBlocks.BLOCKS.getEntries().stream().forEach((deferredHolder)->{
             dropSelf(deferredHolder.get());
         });
+        /*RadiumBlocks.ORE_BLOCKS.getEntries().stream().forEach((deferredHolder)->{
+            dropSelf(deferredHolder.get());
+        });*/
         /*dropOther(RadiumBlocks.LIMESTONE.get(),RadiumBlocks.COBBLED_LIMESTONE.asItem());
         dropOther(RadiumBlocks.OXIDE_LIMESTONE.get(),RadiumBlocks.COBBLED_OXIDE_LIMESTONE.asItem());
 

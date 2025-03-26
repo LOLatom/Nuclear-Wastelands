@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:interpolated",
+    "argument": {
+      "type": "minecraft:interpolated",
+      "argument": "radium:wl_cave_main_density"
+    }
+  },
+  "argument2": "radium:wl_terrain_main_density"
+}

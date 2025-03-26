@@ -68,7 +68,7 @@ public class RadiumBlockItems {
     public static final DeferredItem<BlockItem> COBBLED_OXIDE_LIMESTONE = BLOCK_ITEMS.registerSimpleBlockItem("cobbled_oxide_limestone", RadiumBlocks.COBBLED_OXIDE_LIMESTONE);*/
 
     public static void registerItemsForBlocks() {
-        RadiumBlocks.STONE_BLOCKS.getEntries().stream().forEach((deferredHolder)-> {
+        RadiumBlocks.ORE_BLOCKS.getEntries().stream().forEach((deferredHolder)-> {
             BLOCK_ITEMS.registerSimpleBlockItem(deferredHolder.getId().getPath(),deferredHolder);
         });
         RadiumBlocks.BLOCKS.getEntries().stream().forEach((deferredHolder)-> {

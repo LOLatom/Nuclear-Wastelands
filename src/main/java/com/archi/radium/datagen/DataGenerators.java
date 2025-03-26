@@ -30,7 +30,10 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(),new LootTableProvider(packOutput, Collections.emptySet(), List.of(
                 new LootTableProvider.SubProviderEntry(RadiumBlockLootTableProvider::new, LootContextParamSets.BLOCK)),
                 lookUpProvider));
-
+        /*generator.addProvider(event.includeServer(),new LootTableProvider(packOutput, Collections.emptySet(), List.of(
+                new LootTableProvider.SubProviderEntry(RadiumOreLootTableProvider::new, LootContextParamSets.BLOCK)),
+                lookUpProvider));
+        */
         BlockTagsProvider blockTagsProvider = new RadiumBlockTagProvider(packOutput,lookUpProvider,existingFileHelper);
 
 

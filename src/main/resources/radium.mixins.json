@@ -4,6 +4,7 @@
   "package": "com.archi.radium.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "common.ChunkMapMixin"
   ],
   "client": [
   ],

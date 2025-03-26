@@ -1,8 +1,9 @@
 package com.archi.radium;
 
-import com.archi.radium.common.init.RadiumBlockItems;
-import com.archi.radium.common.init.RadiumBlocks;
-import com.archi.radium.common.init.RadiumItemTABS;
+import com.archi.radium.common.init.*;
+import com.archi.radium.worldgen.registries.RadiumDimension;
+import foundry.veil.forge.event.ForgeFreeNativeResourcesEvent;
+import foundry.veil.platform.VeilEventPlatform;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -53,10 +54,12 @@ public class RadiumMod
         modEventBus.addListener(this::commonSetup);
 
 
-        RadiumBlocks.STONE_BLOCKS.register(modEventBus);
+        RadiumBlocks.ORE_BLOCKS.register(modEventBus);
         RadiumBlocks.BLOCKS.register(modEventBus);
+        RadiumItems.ITEMS.register(modEventBus);
         RadiumBlockItems.registerItemsForBlocks();
         RadiumBlockItems.BLOCK_ITEMS.register(modEventBus);
+        RadiumAttachmentTypes.ATTACHMENT_TYPES.register(modEventBus);
         RadiumItemTABS.CREATIVE_MODE_TABS.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
@@ -94,16 +97,19 @@ public class RadiumMod
         LOGGER.info("HELLO from server starting");
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+    @SubscribeEvent
+    public void onEvent(ForgeFreeNativeResourcesEvent event) {
+
+    }
+
+
+    public static class RadiumModCommon {
+
+        public static void initCommon() {
+            VeilEventPlatform.INSTANCE.onFreeNativeResources(() -> {
+
+            });
         }
+
     }
 }

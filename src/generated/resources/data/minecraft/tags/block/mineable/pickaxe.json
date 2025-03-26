@@ -49,6 +49,13 @@
     "radium:greenslate_stairs",
     "radium:cobbled_greenslate",
     "radium:cobbled_greenslate_slab",
-    "radium:cobbled_greenslate_stairs"
+    "radium:cobbled_greenslate_stairs",
+    "radium:monganite_ore",
+    "radium:lead_ore",
+    "radium:beryl_ore",
+    "radium:limestone_coal_ore",
+    "radium:tungsten_ore",
+    "radium:uraninite_ore",
+    "radium:autunite_ore"
   ]
 }

@@ -74,5 +74,24 @@
 
   "block.radium.highly_harden_cobbled_shale": "Highly Harden Cobbled Shale",
   "block.radium.highly_harden_cobbled_shale_stairs": "Highly Harden Cobbled Shale Stairs",
-  "block.radium.highly_harden_cobbled_shale_slab": "Highly Harden Cobbled Shale Slab"
+  "block.radium.highly_harden_cobbled_shale_slab": "Highly Harden Cobbled Shale Slab",
+
+  "block.radium.monganite_ore": "Monganite Ore",
+  "block.radium.lead_ore": "Lead Ore",
+  "block.radium.beryl_ore": "Beryl Ore",
+  "block.radium.limestone_coal_ore": "Limestone Coal Ore",
+  "block.radium.tungsten_ore": "Tungsten Ore",
+  "block.radium.uraninite_ore": "Uraninite Ore",
+  "block.radium.autunite_ore": "Autunite Ore",
+
+  "item.radium.raw_monganite": "Raw Monganite",
+  "item.radium.raw_lead": "Raw Lead",
+  "item.radium.beryl_crystal": "Beryl Crystal",
+  "item.radium.raw_tungsten": "Raw Tungsten",
+  "item.radium.uraninite_crystal": "Uraninite Crystal",
+  "item.radium.autunite_shard": "Autunite Shard",
+  "item.radium.autunite_clump": "Autunite Clump",
+  "item.radium.autunite_chunk": "Autunite Chunk",
+
+  "item.radium.nuclean": "Nuclean"
 }

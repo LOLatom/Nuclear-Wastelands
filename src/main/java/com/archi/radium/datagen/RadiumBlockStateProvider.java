@@ -70,10 +70,20 @@ public class RadiumBlockStateProvider extends BlockStateProvider {
         everythingWithItem(RadiumBlocks.HARDEN_COBBLED_SHALE_STAIRS,RadiumBlocks.HARDEN_COBBLED_SHALE_SLAB,RadiumBlocks.HARDEN_COBBLED_SHALE);
         everythingWithItem(RadiumBlocks.HIGHLY_HARDEN_COBBLED_SHALE_STAIRS,RadiumBlocks.HIGHLY_HARDEN_COBBLED_SHALE_SLAB,RadiumBlocks.HIGHLY_HARDEN_COBBLED_SHALE);
 
+        blockWithItem(RadiumBlocks.MONGANITE_ORE);
+        blockWithItem(RadiumBlocks.LEAD_ORE);
+        blockWithItem(RadiumBlocks.BERYL_ORE);
+        blockWithItem(RadiumBlocks.LIMESTONE_COAL_ORE);
+        blockWithItem(RadiumBlocks.TUNGSTEN_ORE);
+        blockWithItem(RadiumBlocks.URANINITE_ORE);
+        blockWithItem(RadiumBlocks.AUTUNITE_ORE);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
         simpleBlockWithItem(deferredBlock.get(),cubeAll(deferredBlock.get()));
+    }
+    private void logWithItem(DeferredBlock<?> deferredBlock) {
+        //simpleBlockWithItem(deferredBlock.get(),p);
     }
     private void slabWithItem(DeferredBlock<?> deferredBlock, DeferredBlock<?> base) {
         slabBlock((SlabBlock) deferredBlock.get(), blockTexture(base.get()),blockTexture(base.get()));

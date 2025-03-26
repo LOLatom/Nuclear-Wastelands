@@ -1,6 +1,6 @@
 package com.archi.radium.api.radiations.util;
 
-public interface IRadiationSource {
+public interface IRadiationEmitter {
 
     boolean isPersistent();
 
@@ -11,4 +11,6 @@ public interface IRadiationSource {
     float getStrength();
 
     double getRadius();
+
+    RadiationInstance getParticleEmitted();
 }

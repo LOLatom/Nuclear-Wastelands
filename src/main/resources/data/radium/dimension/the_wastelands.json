@@ -1,0 +1,11 @@
+{
+  "type": "radium:the_wastelands_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "radium:the_wastelands",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "radium:infected_lands"
+    }
+  }
+}

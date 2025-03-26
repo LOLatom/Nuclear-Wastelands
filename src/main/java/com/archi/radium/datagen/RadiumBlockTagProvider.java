@@ -87,7 +87,17 @@ public class RadiumBlockTagProvider extends BlockTagsProvider {
 
                 .add(RadiumBlocks.COBBLED_GREENSLATE.get())
                 .add(RadiumBlocks.COBBLED_GREENSLATE_SLAB.get())
-                .add(RadiumBlocks.COBBLED_GREENSLATE_STAIRS.get());
+                .add(RadiumBlocks.COBBLED_GREENSLATE_STAIRS.get())
+
+                .add(RadiumBlocks.MONGANITE_ORE.get())
+                .add(RadiumBlocks.LEAD_ORE.get())
+                .add(RadiumBlocks.BERYL_ORE.get())
+                .add(RadiumBlocks.LIMESTONE_COAL_ORE.get())
+                .add(RadiumBlocks.TUNGSTEN_ORE.get())
+                .add(RadiumBlocks.URANINITE_ORE.get())
+                .add(RadiumBlocks.AUTUNITE_ORE.get());
+
+
 
 
 
